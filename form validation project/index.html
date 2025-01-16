@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="icon2.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body>
+        
+        <h1>Form Validator</h1>
+        <div class="form-container">
+            <div class="form">
+                <form>
+                    <div class="form-element">
+                        <label>Enter Full Name :</label>
+                         <br>
+                        <input type="text" class="name-input" placeholder="Enter Name" required>
+                        <p class="name-error"></p>
+                    </div>
+                    <div class="form-element">
+                        <label>Enter Email-Id :</label>
+                        <br>
+                        <input type="email" class="email-input" placeholder="Enter E-Mail" required>
+                        <p class="email-error"></p>
+                    </div>
+                    <div class="form-element">
+                        <label>Enter Phone Number :</label>
+                        <br>
+                        <input type="number" class="number-input" placeholder="Enter Phone-Number" required>
+                        <p class="number-error"></p>
+                    </div>
+                    <div class="form-element">
+                        <label>Enter New Password :</label>
+                        <br>
+                        <input type="text" class="newpassword-input" placeholder="Enter Password" required>
+                        <p class="newpassword-error"></p>
+                    </div>
+                    <div class="form-element">
+                        <label>Confirm Password :</label>
+                        <br>
+                        <input type="text" class="confirm-input" placeholder="Confirm Password" required>
+                        <p class="confirmpassword-error"></p>
+                    </div>
+                    <div class="form-element">
+                        <button type="submit" class="submit-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
