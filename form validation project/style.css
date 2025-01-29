@@ -68,3 +68,17 @@ input{
     background-color: aqua;
     cursor: pointer;
 }
+@media only screen and (max-width:320px)
+{
+    .form-container{
+        display: flex;
+        max-width: 320px;
+    }
+    input{
+        width: 200px;
+    }
+    label{
+        font-size: 20px;
+    }
+    
+}
